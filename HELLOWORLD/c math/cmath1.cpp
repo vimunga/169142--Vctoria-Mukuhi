@@ -18,6 +18,6 @@ int main()
    //compute the log arithm of z
     cout << "the log of base "<< z << "is " << log(z) << endl;
     // computing 2 raised to the power 3
-    cout <<" 2^3b= "<<pow(2,3)  << endl;
+    cout <<" 2^3b= "<<pow(2,3)  <<endl;
 
 }
