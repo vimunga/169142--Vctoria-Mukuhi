@@ -35,7 +35,7 @@ switch (case (shapes))
         double area = sides * sides;
         cout << " The area of the square is: " << area << endl;
     } else {
-        cout << " "
+        cout << " The Invalid sides length!" << 
     }
     }
 }
