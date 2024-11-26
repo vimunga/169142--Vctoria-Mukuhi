@@ -1,0 +1,1 @@
+//Write a C++ program that uses C-style casting to explicitly convert a double to an int.
