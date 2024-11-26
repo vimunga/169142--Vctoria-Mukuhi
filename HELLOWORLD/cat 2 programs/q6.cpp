@@ -13,7 +13,8 @@ switch (case (shapes))
 {
     case 'C':
     {
-        
+        double radius;
+        cout << ""
     }
 }
 }
