@@ -35,8 +35,27 @@ switch (case (shapes))
         double area = sides * sides;
         cout << " The area of the square is: " << area << endl;
     } else {
-        cout << " The Invalid sides length!" << 
+        cout << " The Invalid sides length!" << endl;
+
     }
+    break;
     }
+
+    case 'R':
+    {
+        double length, width;
+        cout << " Enter the length and width of the rectangle:" << endl;
+        cin >> length >> width;
+        if( length > 0 && width> 0){
+            double area = length * width;
+            cout << " The area of the rectangle is:" << area << endl;
+        } else {
+            cout <<" The Invalid dimensions!" << endl;
+        }
+        break;
+    }
+    default:
+    cout << " The Invalid shape selected!" << endl;
 }
+return 0;
 }
